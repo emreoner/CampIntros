@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampIntros", "CampIntros\CampIntros.csproj", "{B96DD378-92DA-4113-B423-81F993033564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{7F63CE7E-C5E6-4C2E-A745-C01068781CE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B96DD378-92DA-4113-B423-81F993033564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96DD378-92DA-4113-B423-81F993033564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96DD378-92DA-4113-B423-81F993033564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96DD378-92DA-4113-B423-81F993033564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F63CE7E-C5E6-4C2E-A745-C01068781CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F63CE7E-C5E6-4C2E-A745-C01068781CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F63CE7E-C5E6-4C2E-A745-C01068781CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F63CE7E-C5E6-4C2E-A745-C01068781CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BC4895D-F224-43AB-8336-DB38D9A1C01F}
+	EndGlobalSection
+EndGlobal
