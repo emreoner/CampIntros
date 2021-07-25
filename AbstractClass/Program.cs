@@ -43,6 +43,7 @@ namespace AbstractClass
         {
             ///
             mevzuatBase.Degerlendir();
+            mevzuatBase.Kaydet();
         }
     
     }
