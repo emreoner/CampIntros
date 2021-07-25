@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyDictionaries
+namespace HwMyDictionary
 {
     public class MyDictionary<TKey, TVal>
     {
