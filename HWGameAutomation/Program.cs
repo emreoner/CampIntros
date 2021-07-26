@@ -13,9 +13,9 @@ namespace HWGameAutomation
             {
                 Id = 1,
                 FirstName = "EMRE",
-                LastName = "ÖNER",
-                DateOfBirth = new DateTime(1989, 6, 5),
-                IdentityNumber = "51730724414"
+                LastName = "LastNAme",
+                DateOfBirth = new DateTime(1990, 7, 5),
+                IdentityNumber = "12345678910"
             };
 
             Game game = new Game
