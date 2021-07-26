@@ -4,7 +4,8 @@ using System.Text;
 
 namespace HWGameAutomation.Entities
 {
-    public class Member : Person
+    public class Gamer : User
     {
+      
     }
 }

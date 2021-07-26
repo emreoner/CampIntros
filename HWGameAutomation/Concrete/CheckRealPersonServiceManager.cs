@@ -8,7 +8,7 @@ namespace HWGameAutomation.Concrete
 {
     public class CheckRealPersonServiceManager : ICheckRealPersonService
     {
-        public bool CheckIfRealPerson(Person member)
+        public bool CheckIfRealPerson(User member)
         {
             return true;
         }

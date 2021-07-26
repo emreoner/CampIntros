@@ -7,6 +7,6 @@ namespace HWGameAutomation.Abstract
 {
     public interface ISaleService
     {
-        void Sell(Game game, Person member, Offer offer);
+        void Sell(Game game, User member, Offer offer);
     }
 }

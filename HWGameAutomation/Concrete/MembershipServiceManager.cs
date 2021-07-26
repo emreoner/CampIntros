@@ -8,37 +8,37 @@ namespace HWGameAutomation.Concrete
 {
     public class MembershipServiceManager : IMembershipService
     {
-        ICheckRealPersonService checkRealPersonService;
+        ICheckRealPersonService _checkRealPersonService;
 
         public MembershipServiceManager(ICheckRealPersonService checkRealPersonService)
         {
-            this.checkRealPersonService = checkRealPersonService;
+            this._checkRealPersonService = checkRealPersonService;
         }
 
-        public void Delete(Person member)
+        public void Delete(User member)
         {
             Console.WriteLine("Deleted from DB " + member.FirstName);
         }
 
-        public void Save(Person member)
+        public void Save(User member)
         {
 
-            if (checkRealPersonService.CheckIfRealPerson(member))
+            if (_checkRealPersonService.CheckIfRealPerson(member))
             {
                 Console.WriteLine("Saved to DB " + member.FirstName);
             }
             else
-                throw new Exception("Not a Valid Member Info");
+                throw new Exception("Not a Valid User Info");
         }
 
-        public void Update(Person member)
+        public void Update(User member)
         {
-            if (checkRealPersonService.CheckIfRealPerson(member))
+            if (_checkRealPersonService.CheckIfRealPerson(member))
             {
-                Console.WriteLine("Updated Member : " + member.FirstName);
+                Console.WriteLine("Updated User : " + member.FirstName);
             }
             else
-                throw new Exception("Not a Valid Member Info");
+                throw new Exception("Not a Valid User Info");
             
         }
     }

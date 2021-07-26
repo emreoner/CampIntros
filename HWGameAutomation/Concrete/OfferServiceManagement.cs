@@ -8,19 +8,24 @@ namespace HWGameAutomation.Concrete
 {
     public class OfferServiceManagement : IOfferService
     {
-        public void Add(Person person)
+ 
+        public void Add(Offer offer)
         {
-            Console.WriteLine($"Offer added for gamer : {person.FirstName}");
+            Console.WriteLine("Offer Added");
         }
 
-        public void Delete(Person person)
+        public void Delete(Offer offer)
         {
             Console.WriteLine("Offer deleted");
         }
 
-        public void Update(Person person)
+        public void Update(Offer offer)
         {
             Console.WriteLine("Offer updated");
         }
+
+        
+
+
     }
 }

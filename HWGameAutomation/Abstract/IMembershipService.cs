@@ -7,8 +7,8 @@ namespace HWGameAutomation.Abstract
 {
     public interface IMembershipService
     {
-        void Save(Person member);
-        void Update(Person member);
-        void Delete(Person member);
+        void Save(User member);
+        void Update(User member);
+        void Delete(User member);
     }
 }

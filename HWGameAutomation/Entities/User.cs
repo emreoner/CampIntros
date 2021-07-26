@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HWGameAutomation.Entities
 {
-    public class Person:IEntity
+    public class User:IEntity
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

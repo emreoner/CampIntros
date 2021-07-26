@@ -9,7 +9,7 @@ namespace HWGameAutomation
     {
         static void Main(string[] args)
         {
-            Person person = new Member()
+            User person = new Gamer()
             {
                 Id = 1,
                 FirstName = "EMRE",

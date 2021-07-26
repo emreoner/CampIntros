@@ -7,6 +7,6 @@ namespace HWGameAutomation.Abstract
 {
     public interface ICheckRealPersonService
     {
-        bool CheckIfRealPerson(Person member);
+        bool CheckIfRealPerson(User member);
     }
 }

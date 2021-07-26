@@ -7,8 +7,9 @@ namespace HWGameAutomation.Abstract
 {
     public interface IOfferService
     {
-        void Add(Person person);
-        void Update(Person person);
-        void Delete(Person person);
+        void Add(Offer offer);
+        void Update(Offer offer);
+        void Delete(Offer offer);
+       
     }
 }

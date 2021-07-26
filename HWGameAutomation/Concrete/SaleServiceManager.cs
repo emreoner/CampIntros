@@ -8,9 +8,10 @@ namespace HWGameAutomation.Concrete
 {
     public class SaleServiceManager : ISaleService
     {
-    
-        public void Sell(Game game, Person member,Offer offer=null)
+
+        public void Sell(Game game, User member,Offer offer=null)
         {
+            
             if (offer != null)
             {
                 var sellPrice = game.Price - ((game.Price * offer.Rate) / 100);

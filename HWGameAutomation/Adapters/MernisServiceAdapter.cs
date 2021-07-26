@@ -10,13 +10,13 @@ namespace HWGameAutomation.Adapters
 {
     public class MernisServiceAdapter : ICheckRealPersonService
     {
-        public bool CheckIfRealPerson(Person customer)
+        public bool CheckIfRealPerson(User customer)
         {
             var result = GetResult(customer).Result.Body.TCKimlikNoDogrulaResult;
             return result;
         }
 
-        private async Task<TCKimlikNoDogrulaResponse> GetResult(Person customer)
+        private async Task<TCKimlikNoDogrulaResponse> GetResult(User customer)
         {
             KPSPublicSoapClient client = new KPSPublicSoapClient(KPSPublicSoapClient.EndpointConfiguration.KPSPublicSoap);
             return client.TCKimlikNoDogrulaAsync(Convert.ToInt64(customer.IdentityNumber), customer.FirstName.ToUpper(), customer.LastName.ToUpper(), customer.DateOfBirth.Year).Result;
